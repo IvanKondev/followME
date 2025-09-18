@@ -1,0 +1,168 @@
+{
+  "common": {
+    "bookTour": "Book a Tour",
+    "bookNow": "Book Now",
+    "viewDetails": "View Details",
+    "whatsapp": "WhatsApp",
+    "viber": "Viber",
+    "phone": "Phone",
+    "email": "Email",
+    "name": "Name",
+    "date": "Date",
+    "guests": "Guests",
+    "tour": "Tour",
+    "price": "Price",
+    "duration": "Duration",
+    "difficulty": "Difficulty",
+    "included": "Included",
+    "cashOnly": "Cash only",
+    "backToTours": "Back to Tours",
+    "readMore": "Read More",
+    "contactUs": "Contact Us"
+  },
+  "navigation": {
+    "home": "Home",
+    "tours": "Tours",
+    "about": "About",
+    "reviews": "Reviews",
+    "gallery": "Gallery",
+    "book": "Book",
+    "contact": "Contact"
+  },
+  "homepage": {
+    "heroTitle": "Discover the Wonders of the Ocean",
+    "heroSubtitle": "Small groups, friendly guide, photos & videos included. Experience the magic of Maldivian marine life.",
+    "bookTourPrice": "Book a Tour - $60",
+    "popularTours": "Popular Tours",
+    "readyForAdventure": "Ready for Your Adventure?",
+    "contactTanyaDirectly": "Contact Tanya directly to book your tour or ask any questions",
+    "ratedExperience": "Rated #1 Ocean Experience",
+    "happyGuests": "Happy Guests",
+    "yearsExperience": "Years Experience", 
+    "safetyRecord": "Safety Record",
+    "exploreTours": "Explore Tours",
+    "whyChooseUs": "Why Choose Us",
+    "whyChooseUsSubtitle": "Experience the Maldives like never before with our personalized ocean adventures",
+    "smallGroups": "Small Groups",
+    "smallGroupsText": "Maximum 8 people per tour for personalized attention and intimate experiences",
+    "photosIncluded": "Photos Included",
+    "photosIncludedText": "Professional underwater photography and videos included in every tour",
+    "localExpert": "Local Expert",
+    "localExpertText": "8+ years of experience with 100% safety record and local knowledge"
+  },
+  "tours": {
+    "pageTitle": "Our Tours",
+    "pageSubtitle": "Discover the underwater wonders of Ukulhas with our expertly guided tours. All tours include professional equipment and unforgettable memories.",
+    "mantaSafari": {
+      "name": "Manta Safari",
+      "description": "Experience the majestic manta rays in their natural habitat. Swimming with these gentle giants is unforgettable."
+    },
+    "turtleEncounter": {
+      "name": "Turtle Encounter",
+      "description": "Swim alongside sea turtles in crystal clear waters. Perfect for families and beginners."
+    },
+    "nurseShark": {
+      "name": "Nurse Shark Adventure",
+      "description": "Safe encounter with friendly nurse sharks. An exciting adventure for confident swimmers."
+    },
+    "snorkeling": {
+      "name": "Coral Reef Snorkeling",
+      "description": "Explore vibrant coral reefs teeming with tropical fish. Perfect introduction to Maldivian marine life."
+    },
+    "dolphin": {
+      "name": "Dolphin Watching",
+      "description": "Watch playful dolphins in their natural environment. Often includes swimming opportunities."
+    },
+    "sandBank": {
+      "name": "Sandbank Picnic",
+      "description": "Relax on pristine white sandbanks surrounded by turquoise waters. Includes beach picnic."
+    },
+    "fishing": {
+      "name": "Traditional Fishing",
+      "description": "Learn traditional Maldivian fishing techniques. Catch your own dinner with local methods."
+    },
+    "islandHopping": {
+      "name": "Island Hopping",
+      "description": "Visit multiple local islands, experience culture, and enjoy various beaches in one day."
+    }
+  },
+  "about": {
+    "pageTitle": "Meet Tanya",
+    "pageSubtitle": "Your friendly local guide to the underwater wonders of Ukulhas",
+    "greeting": "Hi, I'm Tanya!",
+    "bio1": "Born and raised in the Maldives, I've been sharing the magic of our underwater world with visitors for over 8 years. What started as a passion for marine life has become my life's mission - showing people the incredible beauty that lies beneath our crystal-clear waters.",
+    "bio2": "I believe that every person deserves to experience the wonder of swimming with manta rays, the joy of meeting sea turtles, and the peace of floating above vibrant coral reefs. That's why I keep my groups small and personal - usually just 4-8 people - so everyone gets the attention they deserve.",
+    "bio3": "When I'm not in the water with guests, you'll find me photographing marine life, learning about conservation, or planning the perfect tour routes. I speak English, Dhivehi, and a little Bulgarian too!",
+    "yearsExperience": "Years Experience",
+    "happyGuests": "Happy Guests",
+    "safetyRecord": "Safety Record",
+    "qualifications": "Qualifications",
+    "myApproach": "My Approach",
+    "readyToExplore": "Ready to Explore Together?",
+    "readyToExploreText": "I'd love to show you the incredible marine life around Ukulhas. Whether you're a complete beginner or an experienced snorkeler, I'll make sure you have an unforgettable experience."
+  },
+  "reviews": {
+    "pageTitle": "Guest Reviews",
+    "pageSubtitle": "See what our guests say about their underwater adventures with Tanya",
+    "reviews": "reviews",
+    "wantToShare": "Want to Share Your Experience?",
+    "wantToShareText": "We'd love to hear about your adventure! Contact us after your tour to share your story."
+  },
+  "gallery": {
+    "pageTitle": "Photo Gallery",
+    "pageSubtitle": "Dive into the beauty of Ukulhas through our lens - every tour includes professional photos and videos",
+    "professionalPhotos": "Professional Photos",
+    "hdVideos": "HD Videos",
+    "memoriesIncluded": "Memories Included",
+    "all": "All",
+    "marineLife": "Marine Life",
+    "scenicViews": "Scenic Views",
+    "groupTours": "Group Tours",
+    "memoriesCaptured": "Your Memories, Captured Forever",
+    "memoriesCapturedText": "Every tour includes professional photography and videography. You'll receive all your photos and videos via WhatsApp or email within 24 hours of your tour."
+  },
+  "booking": {
+    "pageTitle": "Book Your Tour",
+    "pageSubtitle": "Fill out the form below or contact Tanya directly via WhatsApp or Viber",
+    "formTitle": "Tour Booking Form",
+    "formSubtitle": "Complete the form below and we'll get back to you within 24 hours to confirm your booking.",
+    "quickContact": "Quick Contact",
+    "quickContactText": "Prefer to book directly? Contact Tanya immediately:",
+    "bookingInformation": "Booking Information",
+    "pricing": "Pricing",
+    "pricingText": "$60 per person for all tours",
+    "payment": "Payment",
+    "paymentText": "Cash only - pay on the day of your tour",
+    "confirmation": "Confirmation",
+    "confirmationText": "We'll confirm your booking within 24 hours via WhatsApp or Viber",
+    "weatherPolicy": "Weather Policy",
+    "weatherPolicyText": "Tours may be cancelled or rescheduled due to weather conditions for your safety. We'll notify you as early as possible and offer alternative dates or full refund.",
+    "fullName": "Full Name",
+    "phoneNumber": "Phone Number",
+    "phoneHint": "WhatsApp or Viber number preferred",
+    "emailAddress": "Email Address",
+    "emailHint": "Optional - for booking confirmation",
+    "numberOfPeople": "Number of People",
+    "selectGuests": "Select number of guests",
+    "person": "person",
+    "people": "people",
+    "selectTour": "Select Tour",
+    "chooseTour": "Choose your tour",
+    "preferredDate": "Preferred Date",
+    "pickDate": "Pick a date",
+    "specialRequests": "Special Requests or Notes",
+    "specialRequestsPlaceholder": "Any special requirements, dietary restrictions, or questions...",
+    "excursions": "Excursions",
+    "chooseExcursions": "Select one or more excursions",
+    "importantInfo": "Important Information:",
+    "importantInfo1": "All tours are $60 per person",
+    "importantInfo2": "Payment is cash only on the day of the tour",
+    "importantInfo3": "Tours may be cancelled due to weather conditions",
+    "importantInfo4": "Confirmation will be sent via WhatsApp or Viber within 24 hours",
+    "sendBookingRequest": "Send Booking Request",
+    "sendingRequest": "Sending Booking Request...",
+    "bookingRequestSent": "Booking Request Sent!",
+    "thankYouText": "Thank you for your booking request. Tanya will contact you within 24 hours via WhatsApp or Viber to confirm your tour.",
+    "needImmediate": "Need immediate confirmation?"
+  }
+}

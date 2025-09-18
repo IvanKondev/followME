@@ -1,0 +1,24 @@
+# Ignore node modules and build caches in Docker context
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js build outputs (will be copied from builder stage)
+.next
+out
+build
+
+# Git and editor files
+.git
+.gitignore
+.vscode
+.idea
+
+# Env files (Coolify will provide Env Vars)
+.env*
+
+# OS
+.DS_Store
+Thumbs.db
