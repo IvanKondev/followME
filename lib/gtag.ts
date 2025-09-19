@@ -27,6 +27,8 @@ export const trackQRCode = (qrCode: string, additionalData?: Record<string, any>
     event_category: 'QR Code',
     event_label: qrCode,
     qr_code: qrCode,
+    qr_source: `qr_${qrCode}`,
+    campaign_name: `QR_${qrCode.toUpperCase()}`,
     custom_parameter_1: 'followme_qr_tracking',
     ...additionalData
   })
