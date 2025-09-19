@@ -4,6 +4,7 @@ import { Inter, Playfair_Display } from "next/font/google"
 import { generateSEO } from "@/lib/seo"
 import { Analytics } from "@/components/analytics"
 import { SchemaMarkup } from "@/components/schema-markup"
+import GoogleAnalytics from "@/components/GoogleAnalytics"
 import ClientLayout from "./ClientLayout"
 import "./globals.css"
 
@@ -32,6 +33,7 @@ export default function RootLayout({
         <SchemaMarkup />
       </head>
       <body suppressHydrationWarning>
+        <GoogleAnalytics />
         <ClientLayout>{children}</ClientLayout>
         <Analytics />
       </body>
