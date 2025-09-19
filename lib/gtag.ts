@@ -15,6 +15,9 @@ export const pageview = (url: string) => {
 export const event = (action: string, parameters?: Record<string, any>) => {
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('event', action, parameters)
+    console.log('GA4: Event sent -', action, parameters)
+  } else {
+    console.warn('GA4: gtag not available, event not sent -', action)
   }
 }
 
