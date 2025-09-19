@@ -1,14 +1,14 @@
 'use client'
 
 import Script from 'next/script'
-import { GA_MEASUREMENT_ID } from '@/lib/gtag'
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-YMLSDXTPMF'
 
 export default function GoogleAnalytics() {
-  if (!GA_MEASUREMENT_ID) {
-    console.warn('GA4: No measurement ID found')
+  if (!GA_MEASUREMENT_ID || GA_MEASUREMENT_ID === 'undefined') {
+    console.warn('GA4: No valid measurement ID found')
     return null
   }
-
+  
   console.log('GA4: Initializing with ID:', GA_MEASUREMENT_ID)
 
   return (
@@ -36,7 +36,9 @@ export default function GoogleAnalytics() {
             gtag('js', new Date());
             gtag('config', '${GA_MEASUREMENT_ID}', {
               page_path: window.location.pathname,
-              debug_mode: true
+              debug_mode: true,
+              send_page_view: true,
+              anonymize_ip: true
             });
             console.log('GA4: Configured with ID ${GA_MEASUREMENT_ID}');
             
