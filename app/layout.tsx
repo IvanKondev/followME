@@ -4,7 +4,7 @@ import { Inter, Playfair_Display } from "next/font/google"
 import { generateSEO } from "@/lib/seo"
 import { Analytics } from "@/components/analytics"
 import { SchemaMarkup } from "@/components/schema-markup"
-import GoogleAnalytics from "@/components/GoogleAnalytics"
+import Script from "next/script"
 import ClientLayout from "./ClientLayout"
 import "./globals.css"
 
@@ -31,9 +31,25 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className={`${inter.variable} ${playfair.variable} antialiased`}>
       <head>
         <SchemaMarkup />
+        {/* Google Analytics 4 */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-YMLSDXTPMF"
+        />
+        <Script
+          id="ga4"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-YMLSDXTPMF');
+            `,
+          }}
+        />
       </head>
       <body suppressHydrationWarning>
-        <GoogleAnalytics />
         <ClientLayout>{children}</ClientLayout>
         <Analytics />
       </body>
